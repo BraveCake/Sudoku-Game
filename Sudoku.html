@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="gamestyle.css">
+        <title>
+            Sudoku-Game
+        </title>
+       
+    </head>
+    <body>
+
+        <script src="js/bootstrap.min.js"></script>
+
+       <div class="text-center main-title text-primary">Sudoku Game</div>
+	   <div class="fixed" > <p class="count_up" id='time'>0M:0S</p> </div>
+<div class="container sudoku-table ">
+<div class="row "><div class="col-1-sm " style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c0"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c1"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c2"class ="br"></div>
+
+<!--S1-->
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c3" ></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c4"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c5"class ="br"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c6"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c7"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c8"></div>
+</div>
+<!--R1-->
+<div class="row "><div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c9"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c10"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c11"class ="br"></div>
+<!--S1-->
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c12"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c13"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c14"class ="br"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c15"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c16"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c17"></div>
+</div>
+<!--R2-->
+<div class="row "><div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= "1" name="" id="c18"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c19" ></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c20" class ="br"></div>
+<!--S1-->
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c21"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c22"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c23"class ="br"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c24"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c25"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c26"></div>
+</div>
+<!--R3-->
+<div class="row "><div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= "1" name="" id="c27" class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c28" class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c29" class ="bt br"></div>
+<!--S1-->
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c30" class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c31"class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c32"class ="bt br"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c33"class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c34"class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c35"class ="bt"></div>
+</div>
+<!--R4-->
+<div class="row "><div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c36"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c37"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c38"class ="br"></div>
+<!--S1-->
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c39"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c40"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c41"class ="br"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c42"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c43"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c44"></div>
+</div>
+<!--R5-->
+<div class="row "><div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c45"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c46"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c47"class ="br"></div>
+<!--S1-->
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c48"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c49"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c50"class ="br"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c51"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c52"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c53"></div>
+</div>
+<!--R6-->
+<div class="row "><div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c54" class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c55" class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c56"class ="bt br"></div>
+<!--S1-->
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c57"class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c58"class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c59"class ="bt br"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c60"class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c61"class ="bt"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c62"class ="bt"></div>
+</div>
+<!--R7-->
+<div class="row "><div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c63"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c64"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c65" class ="br"></div>
+<!--S1-->
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c66"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c67"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c68" class ="br"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c69"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c70"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c71"></div>
+</div>
+<!--R8-->
+<div class="row "><div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c72"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c73"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c74" class ="br"></div>
+<!--S1-->
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c75"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c76"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c77" class ="br"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c78"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c79"></div>
+<div class="col-1-sm" style="padding: 0px;"><input type="tel" maxlength= " 1" name="" id="c80"></div>
+</div>
+<!--R9-->
+</div>
+<div class="text-center main-title text-primary"><button class="btn btn-outline-info" onclick="check()">Submit</button></div>
+
+<script src="sudoku.js"></script>
+
+    </body>
+</html>
